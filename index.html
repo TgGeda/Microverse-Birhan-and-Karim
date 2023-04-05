@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microverse Trial Build a Survey Form Project</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 
 <body>
     <div id="heading">
     <h1 id="title"> Build a Survey Form</h1>
-    <p id="description">We are developing Build a Survey Form for Microverse Trial usng html and Css responsive web design tools </p>
+    <p id="description">Build a Survey Form for Microverse Trial using HTML and CSS is a challenge typically given to students in the Microverse program to test their proficiency in these web development languages. 
+      The challenge requires them to create a survey form that collects data from users and possibly stores it in a database.To complete this challenge, we typically create an HTML form 
+      that collects data from users, including text input fields, radio buttons, checkboxes, drop-down menus, and more. we then use CSS to style the form, making it visually appealing and easy to use. </p>
     </div>
 
 
 
-    <div id="main">
+    <div id="main-form">
 
 
         <form id="survey-form">
-        <div id="input-fields">
+        <div id="user-input-fields">
 
             <label id="name-label"><b>Name:</b></label>
             <input id="name" type="text" name="name"   required placeholder="Full Name"><br>
@@ -33,21 +35,21 @@
          </div>
 
 
-         <div id="dropdown-div"><br>
-            <label id="dropdown-label"><strong>Full Stack Devloper's Language : </strong></label><br>
-            <select id="dropdown" name="Web-lang" >
+         <div id="dropdown-div-sec"><br>
+            <label id="dropdown-label"><b>Full Stack Devloper's Language : </b></label><br>
+            <select id="dropdown" name="Web-prog-lang" >
                 
                 <option value="Python">Python</option>
                 <option value="C#">C#</option>
                 <option value="php">PHP</option>
                 <option value="Js">Java Script</option>
                 <option value="Java">Java</option>
-                <option value="html and css">responsive web design tools</option>
+                <option value="html and css">Responsive web design tools</option>
                  
             </select>
 
           </div>
-         <div id="button-area">
+         <div id="button-area-sec">
              <br>
              <label>Do you agree with the following statement?</label>
               <div>
@@ -60,34 +62,33 @@
               </div>
 
           </div>
-          <div id="button-area"><br>
-            <label id="Skill-label"><b>Codding  experience: </b></label><br>
+          <div id="button-area-sec"><br>
+            <label id="Skill-label"><b> Self-Passed Codding experience: </b></label><br>
             <input type="checkbox" name="Python Programming" value="Django" checked> I am experienced with Django framwork<br>
             <input type="checkbox" name="Java Programming" value="JDBC"> I am experienced with JWT<br>
             <input type="checkbox" name="Js Programming" value="nodejs"> I am experienced with nodejs framework<br>
           </div>
 
           <div id="dropdown"><br><br>
-            <label id="dropdown-label"><strong>Programming language you wanna be expert: </strong></label><br>
+            <label id="dropdown-label"><b>Programming Languages we can further Advanced: </b></label><br>
             <select id="dropdown" name="code-lang" class="form"><br><br>
-                <option value="C">C (Programming Language)</option>
-                <option value="Python">Python</option>
-                <option value="C#">C#</option>
-                <option value="php">PHP</option>
-                <option value="Js">Java Script</option>
-                <option value="Go">Go (Programming Language)</option>
-                <option value="ruby">Ruby on rails</option>
-                <option value="C++">C++</option>
+                <option value="C and C++ "> C and C++ Programming Language</option>
+                <option value="Python">Python Development</option>
+                <option value="Java">Java Development</option>
+                <option value="C#">C# Development</option>
+                <option value="Js">Java Script Development</option>
+                <option value="ruby and Kotlin">Ruby on rails and Kotlin </option>
                 <option value="Java">Java</option>
             </select>
          </div>
-          <div id="button-area"><br><br>
-            <label id="os-label"><b>Latest technology experience:</b></label><br>
-            <input type="checkbox" name="tech1" value="flutter"> Flutter UI<br>
-            <input type="checkbox" name="tech2" value="nodejs"> Node.js<br>
-            <input type="checkbox" name="tech3" value="tnflow"> Tensorflow<br>
-            <input type="checkbox" name="tech3" value="git"> Github<br>
-            <input type="checkbox" name="tech3" value="devops"> Dev-Ops<br>
+          <div id="button-area-sec"><br><br>
+            <label id="os-label"><b>Current technology of I am focusing:</b></label><br>
+            <input type="checkbox" name="tech-quant" value="Quantum Computing"> Quantum Computing and Edge Computing <br>
+            <input type="checkbox" name="tech-ai" value="chatGPT"> Chatbots and virtual assistants<br>
+            <input type="checkbox" name="tech-data" value="big-data"> Data Science <br>
+            <input type="checkbox" name="tech-ml " value="machine-human"> Artificial Intelligence <br>
+            <input type="checkbox" name="tech-vct" value="git"> Github and Full Stack Web Development<br>
+            <input type="checkbox" name="tech-remote" value="devops and azure"> Dev-Ops Engineer<br>
           </div>
 
 
